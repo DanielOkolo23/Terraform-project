@@ -146,7 +146,7 @@ resource "aws_security_group" "ec2-security-grp" {
   }
 }
 
-
+# creating instance 1
 resource "aws_instance" "server1" {
   ami             = "ami-0d09654d0a20d3ae2"
   instance_type   = "t2.micro"
